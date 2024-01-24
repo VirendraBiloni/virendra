@@ -1,0 +1,139 @@
+@media only screen and (max-width: 819px) {
+    .rightnav {
+        width: 100vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        overflow: hidden;
+        /* width: 100vw; */
+        flex-direction: column;
+        height: 380px;
+        transition: all 0.3s ease-out;
+    }
+
+    .leftnav {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    #search {
+        width: 250px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .hnav-res {
+        height: 72px;
+    }
+
+    .vclass-res {
+        opacity: 0;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .leftsec {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start; */
+        align-items: start;
+        width: 80%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftcontact {
+        display: flex;
+        align-self: center;
+        margin-top: 40px;
+        margin-bottom: -80px;
+    }
+
+    .rightcontact {
+        display: flex;
+        align-self: center;
+        margin-bottom: 30px;
+        flex-direction: column;
+
+    }
+
+    .mid {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .support {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .support ul li {
+        margin-left: 30%;
+    }
+
+    .company {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+    .company ul li {
+        margin-left: 30%;
+    }
+
+    .rightsec img {
+        padding: 0;
+        margin: 0;
+    }
+
+    #img {
+        width: 90vw;
+    }
+
+    #img3 {
+        width: 90vw;
+    }
+
+    .two {
+        width: 80vw;
+    }
+
+    #img2 {
+        width: 80vw;
+        margin-top: 20px;
+    }
+
+    .leftsec p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .leftsec h2 {
+        display: flex;
+        align-self: center;
+    }
+
+}
